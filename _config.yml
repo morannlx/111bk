@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Ink  Dyeing
+title: "Ink  Dyeing"
 subtitle: 'InkDyeing——墨染的个人博客'
 description: 'InkDyeing——墨染的个人博客'
 keywords: InkDyeing,hexo美化,fluid主题
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://202271.xyz
+url: https://moranwp.eu.org
 #permalink: :year/:month/:day/:title/
 permalink: post/:abbrlink/
 permalink_defaults:

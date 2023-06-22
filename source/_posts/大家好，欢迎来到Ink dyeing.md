@@ -1,6 +1,6 @@
 ---
 abbrlink: 这里是墨染blog
-banner_img: https://moran.0oo0.top/images/ink1.jpg
+banner_img: https://moran.0oo0.top/images/ink1.png
 body: ''
 categories:
 - - 成长记录
@@ -14,7 +14,7 @@ sticky: ''
 tags:
 - 博客
 title: 大家好，欢迎来到Ink dyeing
-updated: 2023-6-22T18:40:40.622+8:0
+updated: 2023-6-22T19:4:33.648+8:0
 ---
 大家好，这里是ink dyeing
 

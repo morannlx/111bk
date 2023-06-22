@@ -3,28 +3,28 @@ navbar:
   ground_glass:
     enable: true
 index:
-  banner_img: https://i.imgtg.com/2023/05/05/CJFsq.jpg
+  banner_img: https://moran.0oo0.top/images/ink-index.jpg
   banner_img_height: 100
   slogan:
     text: " 墨染水云间，流年如画轻盈了幽闲。"
 post:
-  banner_img: https://imgapi.xl0408.top/index.php
+  banner_img: https://moran.0oo0.top/images/ink-banner_img.jpg
   banner_img_height: 70
   default_index_img: https://i.imgtg.com/2022/09/14/yAzLX.png
 archive:
-  banner_img: https://imgapi.xl0408.top/index.php
+  banner_img: https://moran.0oo0.top/images/ink-archive.jpg
   banner_img_height: 80
   subtitle: null
 category:
-  banner_img: /images/uploads/1616421416500-wallhaven-rddv31.jpg
+  banner_img: https://moran.0oo0.top/images/ink-category.jpg
   banner_img_height: 80
   subtitle: null
 tag:
-  banner_img: /images/uploads/1616421669417-wallhaven-1kkm2g.jpg
+  banner_img: https://moran.0oo0.top/images/ink-tag.jpg
   banner_img_height: 80
   subtitle: null
 about:
-  banner_img: /images/uploads/wallhaven-pkkr2.webp
+  banner_img: https://moran.0oo0.top/images/ink-aboutme.jpg
   banner_img_height: 80
   subtitle: null
   avatar: /images/uploads/yutzi.jpg

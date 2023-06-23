@@ -429,34 +429,13 @@ footer:
   <span>萌备20231154</span>
 </a>'
 
-<footer>
-    <div>© 2021-2022 foo.com</div>
-    <div>Running time: <span id="running-time"></span></div>
-</footer>
+<div class="footer-poweredby-container">
+    Powered by <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a> |
+    {{t('footer.powered_by')}}
+    {{t('footer.theme')}} <a href="{{theme.author_url}}" target="_blank" rel="noopener">{{theme.name}}</a>
+    | Site Uptime: {{ moment().diff(moment('2023-06-22'), 'days') }} days
+</div>
 
-<script>
-    // 获取 span 元素
-    const runningTime = document.getElementById('running-time');
-
-    // 计算并更新运行时长
-    function updateTime() {
-      // 获取当前日期和开始日期的时间戳
-      const startDate = new Date('2023-06-22').getTime();
-      const currentDate = new Date().getTime();
-      
-      // 计算日期差值，单位为天
-      const elapsedDays = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24));
-      
-      // 更新 span 元素
-      runningTime.textContent = `${elapsedDays} days`;
-    }
-
-    // 更新间隔为一天，防止频繁运算
-    setInterval(updateTime, 24 * 60 * 60 * 1000);
-
-    // 初始化，第一次更新
-    updateTime();
-</script>
 
 
 

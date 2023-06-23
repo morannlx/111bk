@@ -428,7 +428,12 @@ footer:
   <img src="https://icp.gov.moe/images/ico64.png" alt="萌icp备" width="20" height="20">
   <span>萌备20231154</span>
 </a>'
- 
+
+ <span id="website_runtime"></span>
+<script type="text/javascript">
+function show_runtime(){window.setTimeout("show_runtime()",1000);x=new Date("2023/06/22 00:00:00");y=new Date();z=y.getTime()-x.getTime();mspd=24*60*60*1000;_d=z/mspd;d=Math.floor(_d);_h=(_d-d)*24;h=Math.floor(_h);_m=(_h-h)*60;m=Math.floor(_m);_s=(_m-m)*60;s=Math.floor(_s);website_runtime.innerHTML="本站已运行："+d+"天"+h+"小时"+m+"分"+s+"秒";}show_runtime();
+</script>
+
  
    # 展示网站的 PV、UV 统计数
    # Display website PV and UV statistics

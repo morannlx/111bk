@@ -429,10 +429,36 @@ footer:
   <span>萌备20231154</span>
 </a>'
 
- <span id="website_runtime"></span>
-<script type="text/javascript">
-function show_runtime(){window.setTimeout("show_runtime()",1000);x=new Date("2023/06/22 00:00:00");y=new Date();z=y.getTime()-x.getTime();mspd=24*60*60*1000;_d=z/mspd;d=Math.floor(_d);_h=(_d-d)*24;h=Math.floor(_h);_m=(_h-h)*60;m=Math.floor(_m);_s=(_m-m)*60;s=Math.floor(_s);website_runtime.innerHTML="本站已运行："+d+"天"+h+"小时"+m+"分"+s+"秒";}show_runtime();
+<footer>
+    <div>© 2021-2022 foo.com</div>
+    <div>Running time: <span id="running-time"></span></div>
+</footer>
+
+<script>
+    // 获取 span 元素
+    const runningTime = document.getElementById('running-time');
+
+    // 计算并更新运行时长
+    function updateTime() {
+      // 获取当前日期和开始日期的时间戳
+      const startDate = new Date('2023-06-22').getTime();
+      const currentDate = new Date().getTime();
+      
+      // 计算日期差值，单位为天
+      const elapsedDays = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24));
+      
+      // 更新 span 元素
+      runningTime.textContent = `${elapsedDays} days`;
+    }
+
+    // 更新间隔为一天，防止频繁运算
+    setInterval(updateTime, 24 * 60 * 60 * 1000);
+
+    // 初始化，第一次更新
+    updateTime();
 </script>
+
+
 
  
    # 展示网站的 PV、UV 统计数

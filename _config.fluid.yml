@@ -424,33 +424,15 @@ open_graph:
 footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
-  #旧版本
-  #  content: '<a href="https://icp.gov.moe/?keyword=20231154" target="_blank">
-  #  <img src="https://icp.gov.moe/images/ico64.png" alt="萌icp备" width="20" height="20">
-  #  <span>萌备20231154</span>
-#  </a>'
-</footer>
-  <a href="https://icp.gov.moe/?keyword=20231154" target="_blank">
-    <img src="https://icp.gov.moe/images/ico64.png" alt="萌icp备" width="20" height="20">
-    <span>萌备20231154</span>
-  </a>
-  <div>我们已经运行了 </div>
-  <div id="running-days"></div>
-</footer>
+  content: '<a href="https://icp.gov.moe/?keyword=20231154" target="_blank">
+  <img src="https://icp.gov.moe/images/ico64.png" alt="萌icp备" width="20" height="20">
+  <span>萌备20231154</span>
+ </a>
+ <div style="font-size: 0.85rem">
+      <span id="timeDate">载入天数...</span>
+      <script src="/js/runningday.js"></script>
+    </div>'
 
-<script>
-  let startDate = new Date('2023-06-22'); // 设置网站开始运行的日期
-  let currentDate = new Date(); // 获取当前日期
-  let timeDiff = Math.abs(currentDate.getTime() - startDate.getTime());
-  let daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24)); // 计算天数
-  
-  let daysText = document.createTextNode(daysDiff + "天"); // 创建文本节点
-  let spanElement = document.createElement("span"); // 创建 span 元素
-  spanElement.appendChild(daysText);
-
-  let runningDaysElement = document.getElementById("running-days");
-  runningDaysElement.appendChild(spanElement);
-</script>
 
 
   statistics:

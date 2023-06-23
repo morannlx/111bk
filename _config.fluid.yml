@@ -232,7 +232,7 @@ font:
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
 custom_js:
-  - https://identity.netlify.com/v1/netlify-identity-widget.js
+  - /js/more.js
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
@@ -415,32 +415,6 @@ open_graph:
   google_plus:
   fb_admins:
   fb_app_id:
-
-  
-#-------------------
-#自己添加的一些功能
-#-------------------
-
-// 浏览器搞笑标题
-var OriginTitle = document.title;
-var titleTime;
-document.addEventListener('visibilitychange', function() {
-	if (document.hidden) {
-		$('[rel="icon"]').attr('href', "/funny.ico");
-		document.title = '╭(°A°`)╮ 你人呢??';
-		clearTimeout(titleTime);
-	} else {
-		$('[rel="icon"]').attr('href', "/img/newtubiao.png");
-		document.title = '(ฅ>ω<*ฅ) 回来就好' + OriginTitle;
-		titleTime = setTimeout(function() {
-			document.title = OriginTitle;
-		}, 2000);
-	}
-});
-
-
-
-
 
 
 

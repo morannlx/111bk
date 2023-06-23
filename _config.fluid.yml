@@ -416,6 +416,34 @@ open_graph:
   fb_admins:
   fb_app_id:
 
+  
+#-------------------
+#自己添加的一些功能
+#-------------------
+
+// 浏览器搞笑标题
+var OriginTitle = document.title;
+var titleTime;
+document.addEventListener('visibilitychange', function() {
+	if (document.hidden) {
+		$('[rel="icon"]').attr('href', "/funny.ico");
+		document.title = '╭(°A°`)╮ 你人呢??';
+		clearTimeout(titleTime);
+	} else {
+		$('[rel="icon"]').attr('href', "/img/newtubiao.png");
+		document.title = '(ฅ>ω<*ฅ) 回来就好' + OriginTitle;
+		titleTime = setTimeout(function() {
+			document.title = OriginTitle;
+		}, 2000);
+	}
+});
+
+
+
+
+
+
+
 
 #---------------------------
 # 页脚

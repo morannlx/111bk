@@ -429,12 +429,20 @@ footer:
   <span>萌备20231154</span>
 </a>'
 
-<div class="footer-poweredby-container">
-    Powered by <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a> |
-    {{t('footer.powered_by')}}
-    {{t('footer.theme')}} <a href="{{theme.author_url}}" target="_blank" rel="noopener">{{theme.name}}</a>
-    | Site Uptime: {{ moment().diff(moment('2023-06-22'), 'days') }} days
-</div>
+<footer>
+  <!-- 以前的代码 -->
+  <div>运行天数：<span id="running-days"></span></div>
+  <script>
+      var startDate = new Date('2020-01-01');
+      var endDate = new Date('');
+      var diff = endDate.getTime() - startDate.getTime();
+      var days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+      document.getElementById("running-days").innerHTML = days;
+  </script>
+</footer>
+
+
+
 
 
 

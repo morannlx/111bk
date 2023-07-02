@@ -794,7 +794,7 @@ gitalk:
 # 基于 LeanCloud
 # Based on LeanCloud
 # See: https://valine.js.org/
-valine:
+#valine:
   appId: MsiNWQxPxcza2WtjShst1LtP-gzGzoHsz
   appKey: uua7e2P0ZmMZsfvYxo7jUGTK
   path: window.location.pathname

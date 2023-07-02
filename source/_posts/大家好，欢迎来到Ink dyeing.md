@@ -4,7 +4,7 @@ banner_img: https://moran.0oo0.top/images/ink1.png
 body: ''
 categories:
 - - 成长记录
-comments: ''
+comments: true
 date: '2023-06-22T18:40:40.692896+08:00'
 excerpt: ''
 index_img: https://moran.0oo0.top/images/ink2.jpg
@@ -14,7 +14,7 @@ sticky: ''
 tags:
 - 博客
 title: 大家好，欢迎来到Ink dyeing
-updated: 2023-7-2T11:50:1.397+8:0
+updated: 2023-7-2T16:57:37.805+8:0
 ---
 大家好，这里是ink dyeing
 

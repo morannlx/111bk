@@ -430,7 +430,6 @@ footer:
   <img src="https://icp.gov.moe/images/ico64.png" alt="萌icp备" width="20" height="20">
   <span>萌备20231154</span>
  </a>
- #运行时间显示
  <div style="font-size: 0.85rem">
       <span id="timeDate">载入天数...</span>
       <script src="/js/runningday.js"></script>
@@ -796,8 +795,8 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:MsiNWQxPxcza2WtjShst1LtP-gzGzoHsz
-  appKey:uua7e2P0ZmMZsfvYxo7jUGTK
+  appId: MsiNWQxPxcza2WtjShst1LtP-gzGzoHsz
+  appKey: uua7e2P0ZmMZsfvYxo7jUGTK
   path: window.location.pathname
   placeholder:
   avatar: 'retro'

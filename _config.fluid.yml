@@ -816,15 +816,15 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 #waline:
-#  serverURL: 'https://cm.202271.xyz/'
-#  path: window.location.pathname
-#  meta: ['nick', 'mail', 'link']
-#  requiredMeta: ['nick']
-#  lang: 'zh-CN'
-#  emoji: ['https://unpkg.com/@waline/emojis@1.1.0/weibo']
- # dark: 'html[data-user-color-scheme="dark"]'
- # wordLimit: 0
- # pageSize: 8
+  serverURL: ''
+  path: window.location.pathname
+  meta: ['nick', 'mail', 'link']
+  requiredMeta: ['nick']
+  lang: 'zh-CN'
+  emoji: ['https://unpkg.com/@waline/emojis@1.1.0/weibo']
+  dark: 'html[data-user-color-scheme="dark"]'
+  wordLimit: 0
+  pageSize: 8
 
 # 畅言 Changyan
 # 基于第三方的服务

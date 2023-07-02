@@ -815,8 +815,8 @@ gitalk:
 # 从 Valine 衍生而来，额外增加了服务端和多种功能
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
-#waline:
-  serverURL: 'https://comment.0oo0.top'
+waline:
+  serverURL: 'https://comment.0oo0.top/'
   path: window.location.pathname
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']

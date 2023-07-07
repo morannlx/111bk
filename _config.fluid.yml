@@ -170,8 +170,8 @@ color:
 
   # 主面板背景色
   # Color of main board
-  board_color: rgba(255, 255, 255, 0.5);
- board_color_dark: rgba(37, 45, 56, 0.5);
+board_color: "#252d3829"
+  board_color_dark: "#252d3829"
 
   # 文章正文字体色
   # Color of post text

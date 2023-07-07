@@ -3,7 +3,7 @@ navbar:
   ground_glass:
     enable: true
 index:
-  banner_img: https://i.imgtg.com/2023/07/02/OkICwv.jpg
+  banner_img: /images/uploads/none.png
   banner_img_height: 100
   slogan:
     text: " 墨染水云间，流年如画轻盈了幽闲"

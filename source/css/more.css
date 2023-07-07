@@ -48,32 +48,44 @@ html::-webkit-scrollbar-corner {
 
 
   //替换鼠标指针
-/* 搜索框关闭按钮  */
+/* 封面大图 */
+.banner {
+	cursor: url(/images/uploads/Arrow.cur),auto;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* 封面向下 */
+.scroll-down-bar {
+	cursor: url(/images/uploads/Hand2.cur),auto;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* 搜索框关闭按钮 */
 #local-search-close.close {
 	cursor: url(/images/uploads/Hand2.cur),auto;
-	background-color: @theme_background;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 
 /* 搜索框、输入框 */
 input,textarea {
-	cursor: url(/images/uploads/IBeam.cur),auto;    /* 这里应该是竖条光标 */
-	background-color: @theme_background;
+	cursor: url(/images/uploads/IBeam.cur),auto;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 
-/* 代码复制键 按钮键增加!important属性后可删 */
-.copy-btn.copy-btn-light {
-	cursor: url(/images/uploads/Hand2.cur),auto;
-	background-color: @theme_background;
+/* 所有可跳转链接 */
+a[href] {
+	cursor: url(/images/uploads/Hand2.cur),auto !important;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 
 /* 按钮 */
 button[class] {
 	cursor: url(/images/uploads/Hand2.cur),auto !important;
-	background-color: @theme_background;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 
 /* 补充按钮 */
-svg {
+svg,span.vat,span.vnick {
 	cursor: url(/images/uploads/Hand2.cur),auto !important;
 	background-color: rgba(0, 0, 0, 0.0);
 }
@@ -81,13 +93,19 @@ svg {
 /* 图片放大 */
 .fancybox-image {
 	cursor: url(/images/uploads/SizeAll.cur),auto;
-	background-color: @theme_background;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 
+html { 
+	cursor: url(/images/uploads/Arrow.cur),auto;
+	background-color: rgba(0, 0, 0, 0.0);
+	overflow-y: auto; /* 设置自定义滚动条 */
+
+	
 /* 回到顶部   a标签添加!important属性后此处可删*/
 #scroll-top-button {
-	cursor: url(/images/uploads/Hand2.cur),auto;
-	background-color: @theme_background;
+	cursor: url(/img/Hand2.cur),auto;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 
 

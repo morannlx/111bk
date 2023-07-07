@@ -121,3 +121,11 @@ body {
   background-attachment: fixed;
   background-size: cover;  
 }
+
+
+//代码框透明度
+[data-user-color-scheme=dark] {
+  --highlight-bg-color: #30303069;
+}
+
+	

@@ -481,6 +481,7 @@ index:
   # 首页副标题的独立设置
   # Independent config of home page subtitle
   slogan:
+    text: 言念君子，温其如玉
     enable: true
 
     # 为空则按 hexo config.subtitle 显示

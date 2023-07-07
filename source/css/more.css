@@ -121,11 +121,3 @@ body {
   background-attachment: fixed;
   background-size: cover;  
 }
-
-
-//透明背景
-.board {
-    background-color:rgba(37, 45, 56, 0.6),!important;
-}
-}
-

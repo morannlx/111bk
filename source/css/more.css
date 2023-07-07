@@ -49,13 +49,13 @@ html::-webkit-scrollbar-corner {
 
   //替换鼠标指针
 /* 封面大图 */
-#banner {
+.banner {
 	cursor: url(/images/uploads/Arrow.cur),auto;
 	background-color: rgba(0, 0, 0, 0.0);
 }
 
 /* 封面向下 */
-#scroll-down-bar {
+.scroll-down-bar {
 	cursor: url(/images/uploads/Hand2.cur),auto;
 	background-color: rgba(0, 0, 0, 0.0);
 }

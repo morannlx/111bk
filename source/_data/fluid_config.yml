@@ -8,7 +8,8 @@ index:
   slogan:
     text: " 墨染水云间，流年如画轻盈了幽闲"
 post:
-  banner_img: https://imgapi.xl0408.top/index.php
+  banner_img: /images/uploads/none.png
+  #https://imgapi.xl0408.top/index.php
   banner_img_height: 70
   default_index_img: https://i.imgtg.com/2022/09/14/yAzLX.png
 archive:

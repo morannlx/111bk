@@ -665,10 +665,11 @@ post:
   # Copyright, will be displayed at the end of each post
   copyright:
     enable: true
-
+    text: "如果你转载的话告诉我一声就更好啦"
+    
     # CreativeCommons license
     # Options: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND
-    license: 'BY'
+    license: 'BY-SA'
 
     # 显示作者
     author:
@@ -820,7 +821,7 @@ gitalk:
   highlight: false
   recordIP: true
   serverURLs: ''
-  emojiCDN:
+  emojiCDN: 
   emojiMaps:
   enableQQ: true
 

@@ -234,6 +234,18 @@ font:
 custom_js:
   - /js/more.js
 
+
+
+#加载css到html
+
+inject:
+  css:
+    - /css/1.css
+
+
+
+
+
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css: 

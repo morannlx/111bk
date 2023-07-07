@@ -120,15 +120,30 @@ body {
 
 //文章透明度
 	
- 	/* 文章页背景 */
-.board-bg-color {
-    /* 以下代表透明度为0.5 可以自行修改*/
-    background: rgba(37, 45, 56, 0.6);
+ [data-user-color-scheme=dark] {
+    --body-bg-color: #181c27;
+    --board-bg-color: #252d3869;
+    --text-color: #c4c6c9;
+    --sec-text-color: #a7a9ad;
+    --post-text-color: #c4c6c9;
+    --post-heading-color: #c4c6c9;
+    --post-link-color: #1589e9;
+    --link-hover-color: #30a9de;
+    --link-hover-bg-color: #364151;
+    --line-color: #435266;
+    --navbar-bg-color: #1f3144;
+    --navbar-text-color: #d0d0d0;
+    --subtitle-color: #d0d0d0;
+    --scrollbar-color: #687582;
+    --scrollbar-hover-color: #9da8b3;
+    --button-bg-color: transparent;
+    --button-hover-bg-color: #46647e;
+    --highlight-bg-color: #252d3869;
+    --inlinecode-bg-color: rgba(99,110,123,0.4)
 }
 
-/* 所有页面背景 */
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
-    /* 以下代表透明度为0.5 */
-    background: rgba(37, 45, 56, 0.6);
-}
 
+[data-user-color-scheme=dark] .license-box {
+    background-color: #252d3869;
+    transition: background-color .2s ease-in-out
+}

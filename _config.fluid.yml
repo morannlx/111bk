@@ -138,10 +138,10 @@ dark_mode:
 color:
   # body 背景色
   # Color of body background
-
+  body_bg_color: "#fff"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
-  
+  body_bg_color_dark: "#181c27"
 
   # 顶部菜单背景色
   # Color of navigation bar background
@@ -160,8 +160,8 @@ color:
 
   # 全局字体色
   # Color of global text
- # text_color: "#3c4858"
- # text_color_dark: "#c4c6c9"
+  text_color: "#3c4858"
+  text_color_dark: "#c4c6c9"
 
   # 全局次级字体色（摘要、简介等位置）
   # Color of global secondary text (excerpt, introduction, etc.)
@@ -170,10 +170,8 @@ color:
 
   # 主面板背景色
   # Color of main board
-#board_color: rgba(37, 45, 56, 0.6);
-
-  #board_color_dark: rgba(37, 45, 56, 0.6);
-
+  board_color: "#fff"
+  board_color_dark: "#252d38"
 
   # 文章正文字体色
   # Color of post text

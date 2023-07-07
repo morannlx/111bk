@@ -138,10 +138,12 @@ dark_mode:
 color:
   # body 背景色
   # Color of body background
-  body_bg_color: "#fff"
+board_color:rgba(255,255,255,0.5);
+  board_color_dark:rgba(37,45,56,0.5);
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
-  body_bg_color_dark: "#181c27"
+  board_color:rgba(255,255,255,0.5);
+  board_color_dark:rgba(37,45,56,0.5);
 
   # 顶部菜单背景色
   # Color of navigation bar background

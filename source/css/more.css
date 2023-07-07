@@ -49,6 +49,12 @@ html::-webkit-scrollbar-corner {
 
   //替换鼠标指针
 /* 封面大图 */
+/* 封面大图 */
+.banner {
+	cursor: url(/images/uploads/Arrow.cur),auto;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
 .mask {
 	cursor: url(/images/uploads/Arrow.cur),auto;
 	background-color: rgba(0, 0, 0, 0.0);
@@ -109,10 +115,19 @@ html {
 }
 
 
-
 /* 设置背景图片 */
 body {
   background: url(https://i.imgtg.com/2023/07/07/OxRfVS.jpg);
   background-attachment: fixed;
   background-size: cover;  
 }
+
+
+//透明背景
+/* 封面大图 */
+.board {
+	background-color:rgba(37, 45, 56, 0.6);
+	board-bg-color:rgba(37, 45, 56, 0.6);
+	highlight-bg-color:rgba(37, 45, 56, 0.6);
+}
+

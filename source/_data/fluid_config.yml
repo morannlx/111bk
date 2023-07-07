@@ -37,3 +37,4 @@ about:
   # Color of main board
   board_color: rgba(37,45,56,0.4)
   board_color_dark: rgba(37,45,56,0.4)
+  board-bg-color: rgba(37,45,56,0.4);

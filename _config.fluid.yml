@@ -238,6 +238,7 @@ custom_js:
 # The usage is the same as custom_js
 custom_css: 
   - /css/fonts.css
+  - /css/more.css
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:  # 网页访问统计

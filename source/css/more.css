@@ -127,7 +127,5 @@ body {
 /* 封面大图 */
 .board {
 	background-color:rgba(37, 45, 56, 0.6);
-	board-bg-color:rgba(37, 45, 56, 0.6);
-	highlight-bg-color:rgba(37, 45, 56, 0.6);
 }
 

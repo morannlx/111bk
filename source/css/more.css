@@ -121,7 +121,7 @@ body {
 //文章透明度
 	
  	/* 文章页背景 */
-.layout_post>#post {
+.board-bg-color {
     /* 以下代表透明度为0.5 可以自行修改*/
     background: rgba(37, 45, 56, 0.6);
 }

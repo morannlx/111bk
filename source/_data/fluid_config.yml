@@ -1,3 +1,9 @@
+ # 主面板背景色
+  # Color of main board
+  board_color: rgba(37, 45, 56, 0.6);
+  board_color_dark: rgba(37, 45, 56, 0.6);
+
+
 navbar:
   blog_title: Ink  Dyeing
   ground_glass:

@@ -834,7 +834,7 @@ waline:
   requiredMeta: ['nick']
   lang: 'zh-CN'
   emoji: ['https://unpkg.com/@waline/emojis@1.1.0/weibo']
-  dark: 'html[data-user-color-scheme="dark"]'
+  dark: 'html[data-user-color-scheme="auto"]'
   wordLimit: 0
   pageSize: 8
 

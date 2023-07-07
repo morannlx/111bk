@@ -31,10 +31,3 @@ about:
   avatar: /images/uploads/yutzi.jpg
   name: 墨染_nlx
   intro: My blog
-
-  
- # 主面板背景色
-  # Color of main board
-  board_color: rgba(37,45,56,0.4)
-  board_color_dark: rgba(37,45,56,0.4)
-  board-bg-color: rgba(37,45,56,0.4);

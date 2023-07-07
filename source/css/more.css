@@ -1,0 +1,73 @@
+
+  //滚动条
+html { 
+	overflow-y: scroll; /* 设置自定义滚动条 这样做会强制显示滚动条*/
+	/*overflow-y: auto; /* 可以更换为auto，自动显示模式，就不会强制显示*/
+}
+
+/* 滚动栏本身的背景 此项必须有 */
+html::-webkit-scrollbar { 
+    width: 6px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+/*滚动栏下方的空白区域*/
+html::-webkit-scrollbar-track {
+	background: rgba(255, 85, 127, 0.0); /* 设置透明，就会随主题变化 */
+}
+
+/* 可拖动滚动元素的大小取决于可滚动元素的大小 */
+html::-webkit-scrollbar-thumb{
+	background: #252d38;
+	border-radius: 6px;
+}
+
+/* 可滚动元素的底角，两个滚动条在此相交。 */
+html::-webkit-scrollbar-corner {
+	background:#82AFFF;
+}
+
+
+  //替换鼠标指针
+/* 搜索框关闭按钮  */
+#local-search-close.close {
+	cursor: url(/images/uploads/Hand2.cur),auto;
+	background-color: @theme_background;
+}
+
+/* 搜索框、输入框 */
+input,textarea {
+	cursor: url(/images/uploads/IBeam.cur),auto;    /* 这里应该是竖条光标 */
+	background-color: @theme_background;
+}
+
+/* 代码复制键 按钮键增加!important属性后可删 */
+.copy-btn.copy-btn-light {
+	cursor: url(/img/Hand2.cur),auto;
+	background-color: @theme_background;
+}
+
+/* 按钮 */
+button[class] {
+	cursor: url(/images/uploads/Hand2.cur),auto !important;
+	background-color: @theme_background;
+}
+
+/* 补充按钮 */
+svg {
+	cursor: url(/images/uploads/Hand2.cur),auto !important;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* 图片放大 */
+.fancybox-image {
+	cursor: url(/images/uploads/SizeAll.cur),auto;
+	background-color: @theme_background;
+}
+
+/* 回到顶部   a标签添加!important属性后此处可删*/
+#scroll-top-button {
+	cursor: url(/images/uploads/Hand2.cur),auto;
+	background-color: @theme_background;
+}
+

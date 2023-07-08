@@ -13,19 +13,19 @@ post:
   banner_img_height: 70
   default_index_img: https://i.imgtg.com/2022/09/14/yAzLX.png
 archive:
-  banner_img: https://i.imgtg.com/2023/07/07/OxPolU.jpg
+  banner_img: /images/uploads/none.png
   banner_img_height: 80
   subtitle: null
 category:
-  banner_img: https://i.imgtg.com/2023/07/07/OxP5BY.jpg
+  banner_img: /images/uploads/none.png
   banner_img_height: 80
   subtitle: null
 tag:
-  banner_img: https://i.imgtg.com/2023/07/07/OxPBZv.jpg
+  banner_img: /images/uploads/none.png
   banner_img_height: 80
   subtitle: null
 about:
-  banner_img: https://i.imgtg.com/2023/07/07/OxPTcq.jpg
+  banner_img: /images/uploads/none.png
   banner_img_height: 80
   subtitle: null
   avatar: /images/uploads/yutzi.jpg

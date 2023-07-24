@@ -829,7 +829,7 @@ gitalk:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: 'https://comment.0oo0.top/'
+  serverURL: 'https://comment-system-pi.vercel.app/'
   path: window.location.pathname
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']

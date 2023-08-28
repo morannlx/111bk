@@ -12,8 +12,8 @@ post:
   banner_img: /images/uploads/none.png
   #https://imgapi.xl0408.top/index.php
   banner_img_height: 70
-  default_index_img: /images/uploads/none.png
-    #https://i.imgtg.com/2022/09/14/yAzLX.png
+  default_index_img: https://i.imgtg.com/2022/09/14/yAzLX.png
+  #/images/uploads/none.png
 archive:
   banner_img: /images/uploads/none.png
   banner_img_height: 80
@@ -28,7 +28,7 @@ tag:
   subtitle: null
 about:
   banner_img: /images/uploads/none.png
-  banner_img_height: 80
+  banner_img_height: 81
   subtitle: null
   avatar: /images/uploads/yutzi.jpg
   name: 墨染_nlx

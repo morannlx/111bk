@@ -6,7 +6,7 @@ categories: []
 comments: ''
 date: '2023-06-22T19:52:11.019605+08:00'
 excerpt: ''
-index_img: https://moran.0oo0.top/images/ink3.jpg
+index_img: https://moranwp.glitch.me/images/ink3.jpg
 keywords: Markdown
 permalink: ''
 sticky: ''
